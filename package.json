@@ -1,0 +1,44 @@
+{
+   "name": "backend-my-project-v2",
+   "version": "1.0.0",
+   "description": "",
+   "main": "server.js",
+   "type": "module",
+   "scripts": {
+      "start": "node server",
+      "nodemon": "nodemon server"
+   },
+   "author": "Tomer Aminov",
+   "license": "ISC",
+   "dependencies": {
+      "array.prototype.findlastindex": "^1.2.1",
+      "bcryptjs": "^2.4.3",
+      "colors": "^1.4.0",
+      "cookie-session": "^2.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "express-async-handler": "^1.2.0",
+      "express-session": "^1.17.3",
+      "jsonwebtoken": "^8.5.1",
+      "localStorage": "^1.0.4",
+      "mongoose": "^6.3.4",
+      "mongoose-findorcreate": "^3.0.0",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "node-localstorage": "^2.2.1",
+      "passport": "^0.5.3",
+      "passport-facebook": "^3.0.0",
+      "passport-github2": "^0.1.12",
+      "passport-google-oauth20": "^2.0.0",
+      "passport-local": "^1.0.0",
+      "passport-local-mongoose": "^7.1.2",
+      "react-easy-crop": "^4.4.0",
+      "react-paypal-button-v2": "^2.6.3",
+      "react-router": "^6.3.0"
+   },
+   "devDependencies": {
+      "concurrently": "^7.2.1",
+      "nodemon": "^2.0.16"
+   }
+}
